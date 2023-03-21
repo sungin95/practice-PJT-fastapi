@@ -3,11 +3,11 @@ from typing import Union
 from fastapi import FastAPI
 
 app = FastAPI()
-
+from fastapi.responses import FileResponse
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return FileResponse('index.html')
 
 
 @app.get("/items/{item_id}")
