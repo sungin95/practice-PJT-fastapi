@@ -1,3 +1,5 @@
+# 데이터 베이스 정보 담은 파일
+secrets.json
 # Created by https://www.toptal.com/developers/gitignore/api/python,windows,venv
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,venv
 
